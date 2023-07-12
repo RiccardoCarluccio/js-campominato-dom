@@ -96,8 +96,9 @@ function printGrid(container, squaresList) {
 
 function bombSelection() {
   const bombArray = [];
-  while (i <= 16) {
-    let i = 1;
+  let i = 1;
+
+  while (i <= 16) {  
     const tempBomb = Math.floor(Math.random() * 100 + 1);
 
     if (!bombArray.includes(tempBomb)) {
