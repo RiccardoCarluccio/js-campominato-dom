@@ -94,7 +94,17 @@ function printGrid(container, squaresList) {
 //posso creare una funzione che randomizza questi numeri
 //li paragona al numero delle caselle e, se combacia, gli assegna un .dataset.armed = true o 'true'?
 
-function bombSelection (squareCounts) {
+function bombSelection() {
   const bombArray = [];
-  bombArray
+  while (i <= 16) {
+    let i = 1;
+    const tempBomb = Math.floor(Math.random() * 100 + 1);
+
+    if (!bombArray.includes(tempBomb)) {
+      bombArray.push(tempBomb);
+      i++;
+    }
+  }
+  //TEST Array delle bombe
+console.log(`The bomb squares are: ${bombArray}`);
 }
