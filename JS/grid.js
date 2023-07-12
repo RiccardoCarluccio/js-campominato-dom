@@ -90,7 +90,9 @@ function printGrid(container, squaresList) {
 
 //DA FARE
 //deve poi assegnarli alle caselle appartenenti
+//alla griglia o alle caselle singole di indice "i+1"?
 //li paragona al numero delle caselle e, se combacia, gli assegna un .dataset.armed = true o 'true'?
+//oppure non serve dargli dataset ma basta paragonare ogni volta l'array con il numero della cella?
 //IF TRUE > al click
 
 /**
