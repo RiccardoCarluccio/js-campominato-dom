@@ -120,5 +120,5 @@ function bombSelection() {  //il parametro sarà una derivata di squareCounts
   return bombArray;
 }
 
-//TEST
+//TEST funzione precedente
 bombSelection();
