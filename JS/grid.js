@@ -94,7 +94,10 @@ function printGrid(container, squaresList) {
 //posso creare una funzione che randomizza questi numeri
 //li paragona al numero delle caselle e, se combacia, gli assegna un .dataset.armed = true o 'true'?
 
-function bombSelection() {
+/**
+ * @returns {[]}
+ */
+function bombSelection() {  //il parametro sarà una derivata di squareCounts
   const bombArray = [];
   let i = 1;
 
@@ -107,5 +110,7 @@ function bombSelection() {
     }
   }
   //TEST Array delle bombe
-console.log(`The bomb squares are: ${bombArray}`);
+  console.log(`The bomb squares are: ${bombArray}`);
+
+  return bombArray;
 }
