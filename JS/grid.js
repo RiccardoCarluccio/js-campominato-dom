@@ -86,6 +86,7 @@ function printGrid(container, squaresList) {
 //il pc deve generare un array di 16 numeri casuali da 1 a 100
 //non devono ripetersi
 //crei > paragoni > se non ci sono match, pushi.
+
 //deve poi assegnarli alle caselle appartenenti
 //li paragona al numero delle caselle e, se combacia, gli assegna un .dataset.armed = true o 'true'?
 
@@ -104,8 +105,13 @@ function bombSelection() {  //il parametro sarà una derivata di squareCounts
       i++;
     }
   }
+  bombArray.sort();
+
   //TEST Array delle bombe
   console.log(`The bomb squares are: ${bombArray}`);
 
   return bombArray;
 }
+
+//TEST
+bombSelection();
