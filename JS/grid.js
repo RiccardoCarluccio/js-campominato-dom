@@ -88,10 +88,13 @@ function printGrid(container, squaresList) {
 }
 
 //il pc deve generare un array di 16 numeri casuali da 1 a 100
+//non devono ripetersi
+//crei > paragoni > se non ci sono match, pushi.
 //deve poi assegnarli alle caselle appartenenti
 //posso creare una funzione che randomizza questi numeri
 //li paragona al numero delle caselle e, se combacia, gli assegna un .dataset.armed = true o 'true'?
 
-function bombArray (squareCounts) {
-  
+function bombSelection (squareCounts) {
+  const bombArray = [];
+  bombArray
 }
