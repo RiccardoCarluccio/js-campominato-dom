@@ -51,10 +51,6 @@ function createSingleSquare(squareContent, squareCounts) {
   return square;
 }
 
-function onSquareClick(square) {
-  square.classList.toggle("bg-success");
-}
-
 /**
  * Dato un numero di celle, crea tutta la griglia.
  * @param {number} squaresNumber Numero di quadrati da creare all'interno della griglia
@@ -91,7 +87,6 @@ function printGrid(container, squaresList) {
 //non devono ripetersi
 //crei > paragoni > se non ci sono match, pushi.
 //deve poi assegnarli alle caselle appartenenti
-//posso creare una funzione che randomizza questi numeri
 //li paragona al numero delle caselle e, se combacia, gli assegna un .dataset.armed = true o 'true'?
 
 /**
