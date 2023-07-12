@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
+
+  <title>Campo Minato - Dom</title>
+
+  <!-- Third party libraries -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+  <style>
+    .grid-container {
+      display: flex;
+      border: 1px solid black;
+      flex-wrap: wrap;
+      aspect-ratio: 1/1;
+    }
+
+    .grid-square {
+      aspect-ratio: 1/1;
+      border: 1px solid green;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <main class="container pb-5">
+    <h1 class="my-5">Js Functions | Grid</h1>
+
+
+    <select name="squareCounts" id="">
+      <option value="49">49</option>
+      <option value="81">81</option>
+      <option value="100">100</option>
+    </select>
+
+    <button class="btn btn-primary" id="btn-start">Avvia</button>
+
+    <div class="grid-container"></div>
+
+  </main>
+
+  <script src="JS/grid.js"></script>
+</body>
+
+</html>
