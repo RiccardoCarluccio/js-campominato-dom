@@ -94,7 +94,7 @@ function printGrid(container, squaresList) {
 //li paragona al numero delle caselle e, se combacia, gli assegna un .dataset.armed = true o 'true'?
 //oppure non serve dargli dataset ma basta paragonare ogni volta l'array con il numero della cella?
 //IF TRUE > al click
--
+//---STEP 2---
 //aggiungere un contatore. counter++ se si clicca su un quadrato non armato
 
 /**
